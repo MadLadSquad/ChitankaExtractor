@@ -24,4 +24,4 @@ the `epub` files to `html`, run `./to-html.sh` script. The script requires `pand
 To rename the files with the HTML metadata, run `./rename-with-data.py`.
 
 ### Converting to plain text
-To convert to plain text format, run `./to-plain-text.sh`
+To convert to plain text format, run `./to-plain-text.sh`.
