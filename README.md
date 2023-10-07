@@ -18,14 +18,14 @@ You can download an archive of the chitanka website from [this link](https://chi
 `epub` version with numbers. For those who don't speak bulgarian, click the link saying `EPUB с номера`.
 
 These torrents have a good number of seeders, but are only located in Bulgaria, so it may take significantly longer for one to download the data from a place outside of 
-the Balkans, Eastern and Central Europe or the Middle East.
+Europe, North Africa and the Middle East.
 
 ### Unzipping the archive
 Clone this repository, enter it and unzip the archive in this folder, so that the folders containing the `epub` files are in the same directory as the scripts. To convert
 the `epub` files to `html`, run `./to-html.sh` script. The script requires `pandoc` and `parallel` to be installed.
 
 ### Renaming
-To rename the files with the HTML metadata, run `./rename-with-data.py`.
+To rename the files with the HTML metadata, run `./rename-with-data.sh`.
 
 ### Converting to plain text
-To convert to plain text format, run `./to-plain-text.sh`.
+To convert to plain text format, run `./to-plain-text.sh`. This script, strips all tags, except for `<p>` and replaces headings with new lines.
