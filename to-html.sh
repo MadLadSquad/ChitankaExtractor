@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 extract() {
 	printf "%s\n" "${1}"
