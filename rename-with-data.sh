@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 rename_file() {
 	title=$(grep -o '<title>.*</title>' "$1" | sed -E "s/<(\/?)title>//g")
 	author=$(grep -o '<meta name="author" content=".*/>' "$1" | sed 's/<meta name="author" content="//g' | sed 's/" \/>//g')
